@@ -1,0 +1,36 @@
+/* Reset some default browser styles */
+body, h1, img, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Fun styling for the prank */
+body {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-size: 36px;
+    font-family: 'Comic Sans MS', cursive;
+}
+
+img {
+    max-width: 100%;
+    max-height: 60vh;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 18px;
+    margin-top: 10px;
+    font-family: 'Comic Sans MS', cursive;
+}
